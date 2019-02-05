@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="E:\dev\util\cmder\Cmder.exe" />
+  </component>
+</application>
