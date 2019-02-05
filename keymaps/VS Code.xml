@@ -2,6 +2,12 @@
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CommentByBlockComment">
@@ -11,12 +17,23 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl c" />
   </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -25,6 +42,15 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
   <action id="Print" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl t" />
