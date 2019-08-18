@@ -12,6 +12,7 @@
           <option name="allowTypingDuringDebug" value="true" />
           <option name="automaticallyRefreshWatches" value="true" />
           <option name="breakOnUserUnhandledExceptions" value="true" />
+          <option name="needNotifyWhenStoppedInExternalCode" value="false" />
           <option name="processExceptionsOutsideMyCode" value="true" />
           <option name="remappedSourceLocationsMap">
             <map />
