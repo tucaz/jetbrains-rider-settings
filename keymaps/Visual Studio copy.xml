@@ -9,7 +9,11 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="ParameterInfo" />
   <action id="Print" />
+  <action id="RdOverloadsNavigationAction">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="ctrl p" />
