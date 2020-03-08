@@ -9,13 +9,11 @@
     <debuggers>
       <debugger id="dotnet_debugger">
         <configuration>
-          <option name="allowTypingDuringDebug" value="true" />
-          <option name="automaticallyRefreshWatches" value="true" />
           <option name="breakOnUserUnhandledExceptions" value="true" />
           <option name="needNotifyWhenStoppedInExternalCode" value="false" />
           <option name="processExceptionsOutsideMyCode" value="true" />
-          <option name="remappedSourceLocationsMap">
-            <map />
+          <option name="sshCredentials">
+            <option value="&lt;credentials HOST=&quot;web01&quot; PORT=&quot;22&quot; USERNAME=&quot;tucaz&quot; PRIVATE_KEY_FILE=&quot;&quot; USE_KEY_PAIR=&quot;false&quot; USE_AUTH_AGENT=&quot;true&quot; /&gt;" />
           </option>
         </configuration>
       </debugger>
