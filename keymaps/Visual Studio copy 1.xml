@@ -1,10 +1,13 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="ChooseNextSubsequentPropertyValueEditorAction" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="FileChooser.TogglePathShowing" />
@@ -18,7 +21,19 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="Print" />
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
 </keymap>
